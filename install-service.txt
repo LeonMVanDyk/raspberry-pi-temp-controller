@@ -1,0 +1,7 @@
+cp temp-controller.service /etc/systemd/system/
+
+# start service
+systemctl start temp-controller
+
+# automatically start at boot
+systemctl enable temp-controller
